@@ -1,0 +1,30 @@
+.SignUp {
+  padding: 50px;
+  width: 420px;
+  background-color: #7f181b;
+  height: 280px;
+  position: absolute;
+  top: 47%;
+  left: 10%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  color: #fbf9fa;
+}
+.SignUp h2,
+.SignUp h5 {
+  text-align: center;
+}
+.second {
+  background-color: #005c68;
+  color: white;
+  position: relative;
+  left: 20%;
+}
+.first {
+  background-color: #005c68;
+  color: white;
+}
+.second:hover,
+.first:hover {
+  color: white;
+}

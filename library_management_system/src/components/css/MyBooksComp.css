@@ -1,0 +1,40 @@
+.card {
+  width: 306px;
+  margin: 15px;
+}
+.bookImage {
+  padding: 20px;
+  position: relative;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card-body {
+  background-color: #3a7563;
+  color: white;
+}
+.firstSmall {
+  position: relative;
+  font-size: 14px;
+}
+.secondSmall {
+  position: relative;
+  left: 20%;
+  font-size: 14px;
+}
+.unreserveBtn {
+  position: relative;
+  background-color: #3a7563;
+}
+.unreserveBtna1 {
+  width: 120px;
+  position: relative;
+  left: 6%;
+  bottom: 35%;
+}
+.unreserveBtna2 {
+  width: 120px;
+  position: relative;
+  left: 13%;
+  bottom: 35%;
+}

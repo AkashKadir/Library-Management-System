@@ -1,0 +1,47 @@
+.myBookList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  top: 25%;
+}
+.notReserved {
+  background-color: white;
+  border-radius: 5px;
+  padding: 60px;
+  width: 25%;
+  height: 50%;
+  position: relative;
+  top: 40%;
+  left: 60%;
+  z-index: 2;
+  transform: translate(-40%, -50%) rotateZ(-7deg);
+  box-shadow: 1px 0px 10px 0px rgb(63, 62, 60);
+}
+.notReserved h2 {
+  word-spacing: 5px;
+  line-height: 45px;
+}
+.notReserved span {
+  background-color: rgb(31, 30, 30);
+  border-radius: 50%;
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.crying {
+  background-color: white;
+  border-radius: 5px;
+  padding: 60px;
+  width: 25%;
+  height: 50%;
+  position: relative;
+  top: -10%;
+  left: 35%;
+  z-index: 0;
+  transform: translate(-40%, -50%) rotateZ(6deg);
+}

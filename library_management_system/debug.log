@@ -1,0 +1,7 @@
+[0113/130045.940:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0116/210919.864:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Personal\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\fae8ecf9-7633-4f78-a7ff-a5cefa30f3bf: The system cannot find the path specified. (0x3)
+[0116/222248.719:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Personal\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\91c53016-5f7d-4799-8c04-c8b6ee87983e: The system cannot find the path specified. (0x3)
+[0116/222310.652:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)
+[0117/121455.172:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0117/122341.289:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Personal\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\a234c1dc-24a1-4a84-97bd-f14a0a63db5b: The system cannot find the path specified. (0x3)
+[0117/122359.923:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)

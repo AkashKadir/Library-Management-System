@@ -1,0 +1,64 @@
+.bookInfo {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.bookInfoHeader {
+  position: relative;
+  width: 100%;
+}
+.bookInfoHeader img {
+  margin-left: 12px;
+  margin-top: -10px;
+  width: 150px;
+}
+.Info {
+  position: absolute;
+  top: 0px;
+  left: 180px;
+}
+.Info h2 {
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+.membersInfoBooks {
+  position: relative;
+  width: 100%;
+  top: 8%;
+}
+.reservedMembers {
+  position: relative;
+  top: 10%;
+  width: 50%;
+}
+.reservedMembers h4 {
+  text-align: center;
+}
+.reservedMembers h5 {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+.checkoutMembers {
+  position: absolute;
+  top: 0%;
+  right: 0px;
+  width: 50%;
+}
+.checkoutMembers h4 {
+  text-align: center;
+}
+.checkoutMembers h5 {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+#checkoutMember,
+#reservedMember {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  width: 80%;
+  margin: 0px auto;
+  border-radius: 3px;
+}

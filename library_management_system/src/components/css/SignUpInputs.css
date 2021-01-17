@@ -1,0 +1,22 @@
+.signUpInputs {
+  padding: 50px;
+  width: 420px;
+  background-color: #7f181b;
+  height: 580px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  color: #fbf9fa;
+}
+.signUpInputs h2 {
+  text-align: center;
+}
+.signUpbtn {
+  background-color: #005c68;
+  color: white;
+}
+.signUpbtn:hover {
+  color: white;
+}

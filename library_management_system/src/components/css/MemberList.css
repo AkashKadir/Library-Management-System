@@ -1,0 +1,16 @@
+.memberList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.memberBookDetails {
+  position: absolute;
+  top: 10%;
+  right: 0px;
+  width: 30%;
+}
+.showVisibility {
+  visibility: visible;
+}
+.hiddenVisibility {
+  visibility: hidden;
+}

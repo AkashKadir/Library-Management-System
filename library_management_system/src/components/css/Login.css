@@ -1,0 +1,45 @@
+.nav-image {
+  width: 100%;
+  height: 100vh;
+}
+.Login {
+  padding: 50px;
+  width: 400px;
+  background-color: #009f4d;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  color: #fbf9fa;
+}
+.Login h2 {
+  text-align: center;
+}
+.small {
+  color: #ffb36e;
+  font-size: 17px;
+  position: relative;
+  left: 63%;
+  text-decoration: none;
+}
+.small:hover {
+  color: #ffb36e;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.spanLink {
+  color: #ffb36e;
+  text-decoration: none;
+}
+
+.spanLink :hover {
+  color: #ffb36e;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.login-submit {
+  background-color: #ff851f;
+  color: white;
+}

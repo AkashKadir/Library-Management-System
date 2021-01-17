@@ -1,0 +1,463 @@
+{
+  "librarian": [
+    {
+      "id": 1,
+      "userId": "LIBA001",
+      "username": "Akash",
+      "prevPassword": "1234",
+      "password": "akash",
+      "phoneNumber": "8677557778"
+    },
+    {
+      "id": 2,
+      "userId": "LIBA002",
+      "username": "Kadhir",
+      "prevPassword": "1234",
+      "password": "kadhir",
+      "phoneNumber": "8677557678"
+    },
+    {
+      "userId": "LIBA003",
+      "username": "Lakshmi",
+      "password": "1234",
+      "phoneNumber": "4452323234",
+      "prevPassword": "lakshmi",
+      "id": 3
+    },
+    {
+      "userId": "LIBA004",
+      "username": "Soumiya",
+      "password": "soumiya",
+      "phoneNumber": "8474939222",
+      "prevPassword": "1234",
+      "id": 4
+    },
+    {
+      "userId": "LIBA005",
+      "username": "Revanth",
+      "password": "revanth",
+      "phoneNumber": "3894054893",
+      "prevPassword": "1234",
+      "id": 5
+    }
+  ],
+  "member": [
+    {
+      "id": 1,
+      "userId": "MEMA001",
+      "username": "Harsha",
+      "password": "harsha",
+      "phoneNumber": "2233442121",
+      "prevPassword": "1234",
+      "checkout_books": [
+        {
+          "id": 2,
+          "rack_no": "B19",
+          "copies": 3,
+          "title": "Android in Action, Second Edition",
+          "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg",
+          "authors": "W. Frank Ableson, Robi Sen",
+          "categories": [
+            "Java"
+          ]
+        }
+      ],
+      "reserved_books": [
+        {
+          "id": 1,
+          "rack_no": "A20",
+          "copies": 3,
+          "title": "Unlocking Android",
+          "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
+          "authors": "W. Frank Ableson, Charlie Collins, Robi Sen",
+          "categories": [
+            "Open Source",
+            "Mobile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": "MEMA002",
+      "username": "Rahul",
+      "password": "rahul",
+      "phoneNumber": "2233554421",
+      "prevPassword": "1234",
+      "checkout_books": [],
+      "reserved_books": [
+        {
+          "id": 1,
+          "rack_no": "A20",
+          "copies": 2,
+          "title": "Unlocking Android",
+          "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
+          "authors": "W. Frank Ableson, Charlie Collins, Robi Sen",
+          "categories": [
+            "Open Source",
+            "Mobile"
+          ]
+        }
+      ]
+    },
+    {
+      "userId": "MEMA003",
+      "username": "Harini",
+      "password": "harini",
+      "phoneNumber": "2233552121",
+      "prevPassword": "1234",
+      "checkout_books": [],
+      "reserved_books": [],
+      "id": 3
+    },
+    {
+      "userId": "MEMA004",
+      "username": "Kabilesh",
+      "password": "kabilesh",
+      "phoneNumber": "9428427944",
+      "prevPassword": "1234",
+      "checkout_books": [],
+      "reserved_books": [],
+      "id": 4
+    },
+    {
+      "userId": "MEMA005",
+      "username": "Karthi",
+      "password": "karthi",
+      "phoneNumber": "2895253025",
+      "prevPassword": "1234",
+      "checkout_books": [],
+      "reserved_books": [],
+      "id": 5
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "rack_no": "A20",
+      "copies": 1,
+      "original_copies": 3,
+      "no_of_times_reserved": 45,
+      "title": "Unlocking Android",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson.jpg",
+      "authors": "W. Frank Ableson, Charlie Collins, Robi Sen",
+      "categories": [
+        "Open Source",
+        "Mobile"
+      ]
+    },
+    {
+      "id": 2,
+      "rack_no": "B19",
+      "no_of_times_reserved": 40,
+      "copies": 2,
+      "original_copies": 3,
+      "title": "Android in Action, Second Edition",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson2.jpg",
+      "authors": "W. Frank Ableson, Robi Sen",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 3,
+      "rack_no": "D10",
+      "no_of_times_reserved": 10,
+      "copies": 0,
+      "original_copies": 0,
+      "title": "Specification by Example",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
+      "authors": "Gojko Adzic",
+      "categories": [
+        "Software Engineering"
+      ]
+    },
+    {
+      "id": 4,
+      "rack_no": "B23",
+      "no_of_times_reserved": 5,
+      "copies": 2,
+      "original_copies": 2,
+      "title": "Flex 3 in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed.jpg",
+      "authors": "Tariq Ahmed with Jon Hirschi, Faisal Abid",
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": 5,
+      "rack_no": "G60",
+      "no_of_times_reserved": 70,
+      "copies": 4,
+      "original_copies": 4,
+      "title": "Flex 4 in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ahmed2.jpg",
+      "authors": "Tariq Ahmed, Dan Orlando, John C. Bland II, Joel Hooks",
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": 6,
+      "rack_no": "F30",
+      "copies": 4,
+      "original_copies": 4,
+      "no_of_times_reserved": 50,
+      "title": "Collective Intelligence in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alag.jpg",
+      "authors": "Satnam Alag",
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": 7,
+      "rack_no": "D11",
+      "original_copies": 5,
+      "no_of_times_reserved": 33,
+      "copies": 5,
+      "title": "Zend Framework in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allen.jpg",
+      "authors": "Rob Allen, Nick Lo, Steven Brown",
+      "categories": [
+        "Web Development"
+      ]
+    },
+    {
+      "id": 8,
+      "rack_no": "A19",
+      "no_of_times_reserved": 29,
+      "copies": 3,
+      "original_copies": 3,
+      "title": "Flex on Java",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/allmon.jpg",
+      "authors": "Bernerd Allmon, Jeremy Anderson",
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": 9,
+      "rack_no": "A20",
+      "copies": 3,
+      "no_of_times_reserved": 26,
+      "original_copies": 3,
+      "title": "Griffon in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/almiray.jpg",
+      "authors": "Andres Almiray, Danno Ferrin, James Shingler",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 10,
+      "rack_no": "A27",
+      "no_of_times_reserved": 52,
+      "copies": 5,
+      "original_copies": 5,
+      "title": "OSGi in Depth",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg",
+      "authors": "Alexandre de Castro Alves",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 11,
+      "rack_no": "A29",
+      "no_of_times_reserved": 1,
+      "copies": 5,
+      "original_copies": 5,
+      "title": "Flexible Rails",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong.jpg",
+      "authors": "Peter Armstrong",
+      "categories": [
+        "Web Development"
+      ]
+    },
+    {
+      "id": 12,
+      "rack_no": "A22",
+      "no_of_times_reserved": 9,
+      "copies": 4,
+      "original_copies": 4,
+      "title": "Hello! Flex 4",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong3.jpg",
+      "authors": "Peter Armstrong",
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": 13,
+      "rack_no": "A33",
+      "copies": 5,
+      "original_copies": 5,
+      "no_of_times_reserved": 60,
+      "title": "Coffeehouse",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/asher.jpg",
+      "authors": "Levi Asher, Christian Crumlish",
+      "categories": [
+        "Miscellaneous"
+      ]
+    },
+    {
+      "id": 14,
+      "rack_no": "A34",
+      "no_of_times_reserved": 39,
+      "copies": 2,
+      "original_copies": 2,
+      "title": "Team Foundation Server 2008 in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/azher.jpg",
+      "authors": "Jamil Azher",
+      "categories": [
+        "Microsoft .NET"
+      ]
+    },
+    {
+      "id": 15,
+      "rack_no": "A35",
+      "no_of_times_reserved": 11,
+      "copies": 4,
+      "original_copies": 4,
+      "title": "Brownfield Application Development in .NET",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg",
+      "authors": "Kyle Baley, Donald Belcham",
+      "categories": [
+        "Microsoft"
+      ]
+    },
+    {
+      "id": 16,
+      "rack_no": "A36",
+      "no_of_times_reserved": 27,
+      "copies": 2,
+      "original_copies": 2,
+      "title": "MongoDB in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+      "authors": "Kyle Banker",
+      "categories": [
+        "Next Generation Databases"
+      ]
+    },
+    {
+      "id": 17,
+      "rack_no": "A38",
+      "copies": 3,
+      "original_copies": 3,
+      "no_of_times_reserved": 31,
+      "title": "Taming Jaguar",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barlotta3.jpg",
+      "authors": "Michael J. Barlotta, Jason R. Weiss",
+      "categories": [
+        "PowerBuilder"
+      ]
+    },
+    {
+      "id": 18,
+      "rack_no": "A39",
+      "copies": 5,
+      "original_copies": 5,
+      "no_of_times_reserved": 45,
+      "title": "3D User Interfaces with Java 3D",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/barrilleaux.jpg",
+      "authors": "Jon Barrilleaux",
+      "categories": [
+        "Java",
+        "Computer Graphics"
+      ]
+    },
+    {
+      "id": 19,
+      "rack_no": "A40",
+      "copies": 1,
+      "original_copies": 1,
+      "no_of_times_reserved": 40,
+      "title": "Hibernate in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer.jpg",
+      "authors": "Christian Bauer, Gavin King",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 20,
+      "rack_no": "A41",
+      "copies": 5,
+      "original_copies": 5,
+      "no_of_times_reserved": 38,
+      "title": "Hibernate in Action (Chinese Edition)",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer-cn.jpg",
+      "authors": "Christian Bauer, Gavin King",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 21,
+      "rack_no": "A42",
+      "copies": 2,
+      "original_copies": 2,
+      "no_of_times_reserved": 100,
+      "title": "Java Persistence with Hibernate",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer2.jpg",
+      "authors": "Christian Bauer, Gavin King",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 22,
+      "rack_no": "A43",
+      "copies": 3,
+      "original_copies": 3,
+      "no_of_times_reserved": 77,
+      "title": "JSTL in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bayern.jpg",
+      "authors": "Shawn Bayern",
+      "categories": [
+        "Internet"
+      ]
+    },
+    {
+      "id": 23,
+      "rack_no": "A44",
+      "copies": 5,
+      "original_copies": 5,
+      "no_of_times_reserved": 74,
+      "title": "iBATIS in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/begin.jpg",
+      "authors": "Clinton Begin, Brandon Goodin, Larry Meadors",
+      "categories": [
+        "Web Development"
+      ]
+    },
+    {
+      "id": 24,
+      "rack_no": "A45",
+      "copies": 2,
+      "original_copies": 2,
+      "no_of_times_reserved": 80,
+      "title": "Hibernate Search in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bernard.jpg",
+      "authors": "Emmanuel Bernard, John Griffin",
+      "categories": [
+        "Java"
+      ]
+    },
+    {
+      "id": 25,
+      "rack_no": "A46",
+      "copies": 0,
+      "original_copies": 0,
+      "no_of_times_reserved": 17,
+      "title": "jQuery in Action",
+      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bibeault.jpg",
+      "authors": "Bear Bibeault, Yehuda Katz",
+      "categories": [
+        "Web Development"
+      ]
+    }
+  ]
+}
